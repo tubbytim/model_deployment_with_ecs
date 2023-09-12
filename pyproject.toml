@@ -3,6 +3,7 @@ name = "model_deployment_with_ecs"
 version = "0.1.0"
 description = "virtual env for learning to deploy a model via ecs and fargate"
 authors = ["sean Hickey <seanhickey@live.ie>"]
+packages = [ { include = "**/*.py", from = "."  }]
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -12,8 +13,13 @@ fastapi = "^0.103.1"
 pydantic = "^2.3.0"
 numpy = "^1.25.2"
 gunicorn = "^21.2.0"
+boto3 = "^1.28.45"
+feature-engine = "^1.6.1"
+PyYAML = "^6.0.1"
+ruff = "^0.0.289"
 
 [tool.poetry.dev-dependencies]
+ipykernel = "^6.25.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
