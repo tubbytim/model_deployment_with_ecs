@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "model_deployment_with_ecs"
+version = "0.1.0"
+description = "virtual env for learning to deploy a model via ecs and fargate"
+authors = ["sean Hickey <seanhickey@live.ie>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
