@@ -1,0 +1,5 @@
+s3_model_bucket: sh-adhoc-models
+s3_model_key : titanic-classifier
+pipeline_save_file: titanic_classification_model_output_v
+ml_model_version: 0.0.1
+ml_model_filetype: pkl
