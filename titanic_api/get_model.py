@@ -1,5 +1,5 @@
 import boto3
-from config.core import config
+from titanic_api.config.core import config
 import joblib
 import tempfile
 
