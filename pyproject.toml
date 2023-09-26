@@ -17,6 +17,9 @@ boto3 = "^1.28.45"
 feature-engine = "^1.6.1"
 PyYAML = "^6.0.1"
 ruff = "^0.0.289"
+waitress = "^2.1.2"
+uvicorn = "^0.23.2"
+requests = "^2.31.0"
 
 [tool.poetry.dev-dependencies]
 ipykernel = "^6.25.2"
